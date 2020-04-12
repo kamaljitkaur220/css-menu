@@ -7,8 +7,26 @@
 */
 
 
-nav {font-family: sans-serif;font-size: 10px;}
-#main {width: 900px; margin: 10px auto;}
+#main 
+{
+    font-family:lato;
+    font:Oswald;
+    font-size: 18px;
+    background-image:url("../images/map-bg.jpg");
+    
+    width: 900px; margin: 10px auto;
+    padding-left: 130px;
+    padding-right:130px;
+   
+}
+
+nav 
+ {font-family: sans-serif;
+    font-size: 10px;
+font-family: lato;
+font-size: 18px;
+}
+
 
 /* 
     Add a CSS ruleset targeting the restaurant name to accomplish the following:
@@ -16,6 +34,18 @@ nav {font-family: sans-serif;font-size: 10px;}
         - set the font size to 45px 
         - set the font color to #5d4037
 */
+h1{
+
+padding-left: 10px;
+    font-family:supermercado one;
+    font-size: 45px;
+    color: #5d4037;
+    
+    
+    font-weight: lighter;
+  
+}
+  
 
 
 /* 
@@ -25,10 +55,16 @@ nav {font-family: sans-serif;font-size: 10px;}
 #menu {
     columns: 400px 2;
     column-gap: 100px;
+    column-rule: 2px dashed rosybrown;
+    
+    
 }
 
-section {padding-bottom: 50px;}
-h2 {margin: 0;}
+section {padding-bottom: 50px;
+
+}
+
+
 
 /* 
     Add a CSS ruleset targeting the headings of the menu (e.g. "Starters") to accomplish the following:
@@ -42,10 +78,33 @@ h2 {margin: 0;}
         - Set the font size to 20px
         - Make the font bold
 */
-
+h2{
+   
+    color:#6d4c41 ;
+   
+font-weight: bold;
+    font-size: 26px;
+    font-family: "Lato Black";
+     font-variant: small-caps;
+}
 
 dd {margin: 0 0 12px 0; display: flex;}
-.details {order: 1;}
+
+
+dt
+
+{
+    color:black;
+    font-weight: bold;
+
+}
+.details 
+{
+    color: black;
+   font:bold;
+
+
+ }
 
 /* 
      Update the following ruleset (.price) to accomplish the following:
@@ -55,11 +114,28 @@ dd {margin: 0 0 12px 0; display: flex;}
 .price {
     order: 2;
     padding-left: 10px;
+    font: large;
+    color:firebrick;
+   
+    font-size: larger;
 }
 
-address {padding: 10px;}
+
+address {padding: 10px;
+color: black;
+font-weight: bold;
+
+
+
+}
+
 
 /* 
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
 */
+footer
+{
+    border: 2px dashed rosybrown;
+    
+}
