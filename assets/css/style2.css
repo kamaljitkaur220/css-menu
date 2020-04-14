@@ -5,13 +5,15 @@
     - Use the 'Oswald' font family at 14px throughout the body of the document.
 */
 
-
-nav {font-family: sans-serif; font-size: 10px;}
-
 #main {width: 900px; margin: 10px auto;
     font-family: oswald;
     font-size: 14px;
 }
+
+
+nav {font-family: sans-serif; font-size: 10px;}
+
+
 
 /* 
     Add a CSS ruleset targeting the restaurant name to accomplish the following:
